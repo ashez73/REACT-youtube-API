@@ -1,0 +1,15 @@
+
+.App {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+  margin:auto;
+  text-align: center;
+}
+img {
+padding-right:10px;
+}
+.container {
+  width: 90%;
+  margin: 10px auto;
+  overflow:hidden;
+}

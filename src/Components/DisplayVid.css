@@ -1,0 +1,54 @@
+.displayVid {
+  margin: 0 10px 0 0;
+  float: left;
+  width: 60%;
+  text-align: left;
+}
+
+iframe {
+  width: 100%;
+  min-height: 450px;
+}
+
+@media only screen and (max-width: 1023px) {
+  .displayVid {
+    width: 100%;
+    float: none;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1400px) {
+  iframe {
+    min-height: 290px;
+  }
+}
+
+@media only screen and (min-width: 1401px) and (max-width: 1600px) {
+  iframe {
+    min-height: 340px;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1023px) {
+  iframe {
+    min-height: 320px;
+  }
+}
+
+@media only screen and (min-width: 530px) and (max-width: 699px) {
+  iframe {
+    min-height: 270px;
+  }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 529px) {
+  iframe {
+    min-height: 200px;
+  }
+}
+
+@media only screen and (max-width: 419px) {
+  iframe {
+    min-height: 150px;
+  }
+}

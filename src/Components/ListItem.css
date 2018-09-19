@@ -1,0 +1,13 @@
+.item {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  margin-bottom: 7px;
+  -moz-box-shadow: 1px 1px 3px #bbb;
+  -webkit-box-shadow: 1px 1px 3px #bbb;
+  box-shadow: 1px 1px 3px #bbb;
+  font-size:0.8rem;
+  cursor: pointer;
+  padding-right:5px;
+  text-align:left;
+}

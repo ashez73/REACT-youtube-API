@@ -1,0 +1,21 @@
+.SearchContainer {
+  margin: auto;
+  text-align:center;
+}
+.shadow {
+  -moz-box-shadow:    inset 0 0 3px #bbb;
+  -webkit-box-shadow: inset 0 0 3px #bbb;
+  box-shadow:         inset 0 0 3px #bbb;
+
+}
+input {
+  width:45%;
+  height:1.6rem;
+  border: 1px solid #888;
+  border-radius: 3px;
+}
+@media only screen and (max-width: 1080px) {
+  input {
+    width: 70%;
+  }
+}
