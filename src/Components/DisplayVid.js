@@ -1,5 +1,6 @@
 import React from 'react';
 import './DisplayVid.css';
+import PropTypes from 'prop-types';
 const DisplayVid = (props) => {
   return (
      <React.Fragment>
@@ -13,4 +14,8 @@ const DisplayVid = (props) => {
      </React.Fragment>
    );
  };
+
+ DisplayVid.propTypes = {
+  video: PropTypes.object
+};
 export default DisplayVid;

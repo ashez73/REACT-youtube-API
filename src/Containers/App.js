@@ -4,7 +4,7 @@ import './App.css';
 import SearchBox from '../Components/SearchBox';
 import VidList from '../Components/VidList';
 import DisplayVid from '../Components/DisplayVid'
-const API_KEY = 'yourAPIkey';
+const API_KEY = 'XXXYOURKEYHEREXXXXXXX';
 let myTarget;
 
 class App extends Component {
