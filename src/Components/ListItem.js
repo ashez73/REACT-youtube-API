@@ -10,9 +10,8 @@ const ListItem = ({title, image, handle,myKey})=>{
   )
 };
 ListItem.propTypes = {
-  title: PropTypes.object,
+  title: PropTypes.string,
   image: PropTypes.string,
-  handle:PropTypes.string,
-  myKey: PropTypes.string
+  myKey: PropTypes.number
 };
 export default ListItem;
